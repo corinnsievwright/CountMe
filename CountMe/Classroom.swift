@@ -11,10 +11,17 @@ import Foundation
 class ClassroomClass: NSObject {
     var classPeriod: Int
     var className: String
-    var classList = [StudentClass]()
+    var classList = [Student]()
     init(_period: Int, _cN: String)
     {
         classPeriod = _period
         className = _cN
     }
+    func addStudent(fname: String, lname: String, pd: Int)
+    {
+        var student =  Student(fname, lname, pd)
+        classList.append(student)
+    }
+    
+    
 }

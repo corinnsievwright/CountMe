@@ -17,7 +17,7 @@
 		7B0DA52821BADBED004812CF /* CountMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0DA52721BADBED004812CF /* CountMeTests.swift */; };
 		7B0DA53321BADBED004812CF /* CountMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0DA53221BADBED004812CF /* CountMeUITests.swift */; };
 		7B62DCDF21C01C63002C3978 /* Classroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62DCDE21C01C63002C3978 /* Classroom.swift */; };
-		7B62DCE121C01D56002C3978 /* StudentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62DCE021C01D56002C3978 /* StudentClass.swift */; };
+		7B62DCE121C01D56002C3978 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62DCE021C01D56002C3978 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		7B0DA53221BADBED004812CF /* CountMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountMeUITests.swift; sourceTree = "<group>"; };
 		7B0DA53421BADBED004812CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B62DCDE21C01C63002C3978 /* Classroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classroom.swift; sourceTree = "<group>"; };
-		7B62DCE021C01D56002C3978 /* StudentClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentClass.swift; sourceTree = "<group>"; };
+		7B62DCE021C01D56002C3978 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				7B0DA51B21BADBED004812CF /* LaunchScreen.storyboard */,
 				7B0DA51E21BADBED004812CF /* Info.plist */,
 				7B62DCDE21C01C63002C3978 /* Classroom.swift */,
-				7B62DCE021C01D56002C3978 /* StudentClass.swift */,
+				7B62DCE021C01D56002C3978 /* Student.swift */,
 			);
 			path = CountMe;
 			sourceTree = "<group>";
@@ -270,7 +270,7 @@
 			files = (
 				7B62DCDF21C01C63002C3978 /* Classroom.swift in Sources */,
 				7B0DA51121BADBEC004812CF /* RootViewController.swift in Sources */,
-				7B62DCE121C01D56002C3978 /* StudentClass.swift in Sources */,
+				7B62DCE121C01D56002C3978 /* Student.swift in Sources */,
 				7B0DA51521BADBEC004812CF /* ModelController.swift in Sources */,
 				7B0DA51321BADBEC004812CF /* DataViewController.swift in Sources */,
 				7B0DA50F21BADBEC004812CF /* AppDelegate.swift in Sources */,

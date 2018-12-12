@@ -1,5 +1,5 @@
 //
-//  StudentClass.swift
+//  Student.swift
 //  CountMe
 //
 //  Created by SIEVWRIGHT, CORINN on 12/11/18.
@@ -8,17 +8,15 @@
 
 import Foundation
 
-class StudentClass: NSObject {
+class Student: NSObject {
     var firstName: String
     var lastName: String
     var period: Int
     var studentParticipation = [String: Int]()
-    init(_fN: String, _lN: String, _pD: Int, _sP: [String: Int])
+    init(_ fN: String, _ lN: String, _ pD: Int)
     {
-        firstName = _fN
-        lastName = _lN
-        period = _pD
-        studentParticipation = _sP
-        
+        firstName = fN
+        lastName = lN
+        period = pD
     }
 }
