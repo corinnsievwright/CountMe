@@ -8,20 +8,30 @@
 
 import Foundation
 
-class ClassroomClass: NSObject {
+class Classroom: NSObject {
     var classPeriod: Int
     var className: String
     var classList = [Student]()
-    init(_period: Int, _cN: String)
+    init(_ period: Int, _ cN: String)
     {
-        classPeriod = _period
-        className = _cN
+        classPeriod = period
+        className = cN
     }
-    func addStudent(fname: String, lname: String, pd: Int)
+    func addStudent(_ fname: String, _ lname: String)
     {
-        var student =  Student(fname, lname, pd)
+        var student =  Student(fname, lname)
         classList.append(student)
     }
-    
-    
+    func findIndex (_ x: Student) -> Int
+    {
+        let index: Int = classList.index(of: x)!
+        return index
+    }
+    func deleteStudent(x: Student)
+    {
+        let i: Int = findIndex(x)
+        classList.remove(at: i)
+    }
+
 }
+

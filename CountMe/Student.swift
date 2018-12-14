@@ -11,12 +11,11 @@ import Foundation
 class Student: NSObject {
     var firstName: String
     var lastName: String
-    var period: Int
     var studentParticipation = [String: Int]()
-    init(_ fN: String, _ lN: String, _ pD: Int)
+    init(_ fN: String, _ lN: String)
     {
         firstName = fN
         lastName = lN
-        period = pD
     }
 }
+
